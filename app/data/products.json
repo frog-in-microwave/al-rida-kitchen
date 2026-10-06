@@ -1,0 +1,330 @@
+{
+  "categories": [
+    {
+      "id": "sandwiches",
+      "order": 1,
+      "name": {
+        "en": "Sandwiches",
+        "ar": "الساندويشات"
+      }
+    },
+    {
+      "id": "broasted-meals",
+      "order": 2,
+      "name": {
+        "en": "Broasted & Meals",
+        "ar": "البروستد والوجبات"
+      }
+    },
+    {
+      "id": "extras",
+      "order": 3,
+      "name": {
+        "en": "Extras",
+        "ar": "الإضافات"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "s-crispy",
+      "categoryId": "sandwiches",
+      "order": 1,
+      "name": { "en": "Crispy", "ar": "كرسبي" },
+      "price": "450,000 L.L.",
+      "description": { "en": "Delicious Crispy Sandwich", "ar": "ساندويش كرسبي لذيذ" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-asclop",
+      "categoryId": "sandwiches",
+      "order": 2,
+      "name": { "en": "Asclop", "ar": "اسكالوب" },
+      "price": "450,000 L.L.",
+      "description": { "en": "Asclop Sandwich", "ar": "ساندويش اسكالوب" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-zinger",
+      "categoryId": "sandwiches",
+      "order": 3,
+      "name": { "en": "Zinger", "ar": "زنجر" },
+      "price": "500,000 L.L.",
+      "description": { "en": "Zinger Sandwich", "ar": "ساندويش زنجر" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-tawook",
+      "categoryId": "sandwiches",
+      "order": 4,
+      "name": { "en": "Tawook", "ar": "طاووق" },
+      "price": "450,000 L.L.",
+      "description": { "en": "Tawook Sandwich", "ar": "ساندويش طاووق" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-shawrma",
+      "categoryId": "sandwiches",
+      "order": 5,
+      "name": { "en": "Shawrma", "ar": "شاورما" },
+      "price": "450,000 L.L.",
+      "description": { "en": "Shawrma Sandwich", "ar": "ساندويش شاورما" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-chicken-burger",
+      "categoryId": "sandwiches",
+      "order": 6,
+      "name": { "en": "Chicken Burger", "ar": "برغر دجاج" },
+      "price": "450,000 L.L.",
+      "description": { "en": "Chicken Burger", "ar": "برغر دجاج" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-chicken-cheese-burger",
+      "categoryId": "sandwiches",
+      "order": 7,
+      "name": { "en": "Chicken Cheese Burger", "ar": "برغر دجاج بالجبنة" },
+      "price": "500,000 L.L.",
+      "description": { "en": "Chicken Cheese Burger", "ar": "برغر دجاج مع الجبنة" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-fahita",
+      "categoryId": "sandwiches",
+      "order": 8,
+      "name": { "en": "Fahita", "ar": "فاهيتا" },
+      "price": "500,000 L.L.",
+      "description": { "en": "Fahita Sandwich", "ar": "ساندويش فاهيتا" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-chicken-sub",
+      "categoryId": "sandwiches",
+      "order": 9,
+      "name": { "en": "Chicken Sub", "ar": "تشيكن صب" },
+      "price": "500,000 L.L.",
+      "description": { "en": "Chicken Sub Sandwich", "ar": "ساندويش تشيكن صب" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-fransisco",
+      "categoryId": "sandwiches",
+      "order": 10,
+      "name": { "en": "Fransisco", "ar": "فرانسيسكو" },
+      "price": "500,000 L.L.",
+      "description": { "en": "Fransisco Sandwich", "ar": "ساندويش فرانسيسكو" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-rosto",
+      "categoryId": "sandwiches",
+      "order": 11,
+      "name": { "en": "Rosto", "ar": "روستو" },
+      "price": "550,000 L.L.",
+      "description": { "en": "Rosto Sandwich", "ar": "ساندويش روستو" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-lebanese-burger",
+      "categoryId": "sandwiches",
+      "order": 12,
+      "name": { "en": "Lebanese Burger", "ar": "برغر لبناني" },
+      "price": "500,000 L.L.",
+      "description": { "en": "Lebanese Burger", "ar": "برغر لبناني" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "s-cheese-burger",
+      "categoryId": "sandwiches",
+      "order": 13,
+      "name": { "en": "Cheese Burger", "ar": "تشيز برغر" },
+      "price": "550,000 L.L.",
+      "description": { "en": "Cheese Burger", "ar": "تشيز برغر" },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-broasted-chicken",
+      "categoryId": "broasted-meals",
+      "order": 1,
+      "name": { "en": "Broasted Chicken", "ar": "فروج بروستد" },
+      "price": "1,200,000 L.L.",
+      "description": { "en": "Whole Broasted Chicken", "ar": "فروج بروستد كامل" },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-half-broasted-chicken",
+      "categoryId": "broasted-meals",
+      "order": 2,
+      "name": { "en": "Half Broasted Chicken", "ar": "نصف فروج بروستد" },
+      "price": "600,000 L.L.",
+      "description": { "en": "Half Broasted Chicken", "ar": "نصف فروج بروستد" },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-wings-broasted",
+      "categoryId": "broasted-meals",
+      "order": 3,
+      "name": { "en": "Wings Broasted", "ar": "جوانح بروستد" },
+      "price": "700,000 L.L.",
+      "description": { "en": "Broasted Wings Meal", "ar": "وجبة جوانح بروستد" },
+      "image": "/data/images/8-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-thighs-broasted",
+      "categoryId": "broasted-meals",
+      "order": 4,
+      "name": { "en": "Thighs Broasted", "ar": "فخاذ بروستد" },
+      "price": "700,000 L.L.",
+      "description": { "en": "Broasted Thighs Meal", "ar": "وجبة فخاذ بروستد" },
+      "image": "/data/images/8-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-crispy",
+      "categoryId": "broasted-meals",
+      "order": 5,
+      "name": { "en": "Crispy Meal", "ar": "وجبة كرسبي" },
+      "price": "800,000 L.L.",
+      "description": { "en": "Crispy Meal", "ar": "وجبة كرسبي مقرمش" },
+      "image": "/data/images/3-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-asclop",
+      "categoryId": "broasted-meals",
+      "order": 6,
+      "name": { "en": "Asclop Meal", "ar": "وجبة اسكالوب" },
+      "price": "800,000 L.L.",
+      "description": { "en": "Asclop Meal", "ar": "وجبة اسكالوب" },
+      "image": "/data/images/3-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-zinger",
+      "categoryId": "broasted-meals",
+      "order": 7,
+      "name": { "en": "Zinger Meal", "ar": "وجبة زنجر" },
+      "price": "800,000 L.L.",
+      "description": { "en": "Zinger Meal", "ar": "وجبة زنجر" },
+      "image": "/data/images/3-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-fahita",
+      "categoryId": "broasted-meals",
+      "order": 8,
+      "name": { "en": "Fahita Meal", "ar": "وجبة فاهيتا" },
+      "price": "800,000 L.L.",
+      "description": { "en": "Fahita Meal", "ar": "وجبة فاهيتا" },
+      "image": "/data/images/3-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-chicken-shawrma",
+      "categoryId": "broasted-meals",
+      "order": 9,
+      "name": { "en": "Chicken Shawrma Meal", "ar": "وجبة شاورما دجاج" },
+      "price": "800,000 L.L.",
+      "description": { "en": "Chicken Shawrma Meal", "ar": "وجبة شاورما دجاج" },
+      "image": "/data/images/12-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-tawook",
+      "categoryId": "broasted-meals",
+      "order": 10,
+      "name": { "en": "Tawook Meal", "ar": "وجبة طاووق" },
+      "price": "800,000 L.L.",
+      "description": { "en": "Tawook Meal", "ar": "وجبة طاووق" },
+      "image": "/data/images/3-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-chicken-burger",
+      "categoryId": "broasted-meals",
+      "order": 11,
+      "name": { "en": "Chicken Burger Meal", "ar": "وجبة برغر دجاج" },
+      "price": "800,000 L.L.",
+      "description": { "en": "Chicken Burger Meal", "ar": "وجبة برغر دجاج" },
+      "image": "/data/images/12-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "m-crazy-box",
+      "categoryId": "broasted-meals",
+      "order": 12,
+      "name": { "en": "Crazy Box", "ar": "كريزي بوكس" },
+      "price": "850,000 L.L.",
+      "description": { "en": "Crazy Box Special Meal", "ar": "وجبة كريزي بوكس الخاصة" },
+      "image": "/data/images/8-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "fries-large",
+      "categoryId": "extras",
+      "order": 1,
+      "name": { "en": "Large Fries", "ar": "بطاطا كبيرة" },
+      "price": "400,000 L.L.",
+      "description": { "en": "Large portion of fries.", "ar": "حجم كبير من البطاطا المقلية." },
+      "image": "/data/images/large-fries.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "fries-small",
+      "categoryId": "extras",
+      "order": 2,
+      "name": { "en": "Small Fries", "ar": "بطاطا صغيرة" },
+      "price": "250,000 L.L.",
+      "description": { "en": "Small portion of fries.", "ar": "حجم صغير من البطاطا المقلية." },
+      "image": "/data/images/small-fries.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "pepsi",
+      "categoryId": "extras",
+      "order": 3,
+      "name": { "en": "Pepsi", "ar": "بيبسي" },
+      "price": "100,000 L.L.",
+      "description": { "en": "Cold Pepsi.", "ar": "بيبسي بارد." },
+      "image": "/data/images/pepsi.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "laban",
+      "categoryId": "extras",
+      "order": 4,
+      "name": { "en": "Laban", "ar": "عيران" },
+      "price": "100,000 L.L.",
+      "description": { "en": "Cold Laban/Ayran.", "ar": "عيران بارد." },
+      "image": "/data/images/ayran.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "water",
+      "categoryId": "extras",
+      "order": 5,
+      "name": { "en": "Water", "ar": "ماء" },
+      "price": "50,000 L.L.",
+      "description": { "en": "Cold Water.", "ar": "مياه باردة." },
+      "image": "/data/images/water-1.avif",
+      "isAvailable": true
+    }
+  ]
+}

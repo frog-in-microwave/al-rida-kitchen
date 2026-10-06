@@ -16,14 +16,14 @@ export default function Footer({ lang }: FooterProps) {
             <h4>
               <i
                 className="fas fa-map-marker-alt"
-                style={{ marginInlineEnd: "8px", color: "var(--brand-white)" }}
+                style={{ marginInlineEnd: "8px", color: "var(--brand-red)" }}
               ></i>
-              {lang === "en" ? "Ghazieh Branch" : "فرع الغازية"}
+              {lang === "en" ? "Ghazieh" : "الغازية"}
             </h4>
             <div className="map-frame">
               <iframe
                 title="Al-Rida Kitchen - Ghazieh"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663.2784919797728!2d35.360842072908035!3d33.512901509958375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ef1a77fb37f07%3A0x6fdf3627f6b45177!2s961%20FOOD!5e0!3m2!1sen!2slb!4v1787143468615!5m2!1sen!2slb"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d660.063597350509!2d35.36441671269136!3d33.51407412887934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDMwJzUwLjciTiAzNcKwMjEnNTMuMyJF!5e0!3m2!1sen!2slb!4v1791303262795!5m2!1sen!2slb"
                 width="100%"
                 height="200"
                 style={{ border: 0, display: "block" }}
@@ -32,7 +32,6 @@ export default function Footer({ lang }: FooterProps) {
               ></iframe>
             </div>
           </div>
-
         </div>
 
         <div className="footer-info">
@@ -41,7 +40,7 @@ export default function Footer({ lang }: FooterProps) {
 
           <div className="social-icons">
             <a
-              href="https://www.instagram.com/alrida_kitchen"
+              href="https://www.instagram.com/alrida_kitchen?stkn=a3RtdnlsemV6Mm5p"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
@@ -49,7 +48,7 @@ export default function Footer({ lang }: FooterProps) {
               <i className="fab fa-instagram"></i>
             </a>
             <a
-              href="https://www.tiktok.com/@farouj_wala_atyab?_r=1&_t=ZS-9A2arXLnYdm"
+              href="https://www.tiktok.com/@alridakitchen?_r=1&_t=ZS-9AKiHYBGrOj"
               target="_blank"
               rel="noreferrer"
               aria-label="TikTok"
@@ -57,12 +56,20 @@ export default function Footer({ lang }: FooterProps) {
               <i className="fab fa-tiktok"></i>
             </a>
             <a
-              href="https://www.facebook.com/share/19PTC2qi8D/"
+              href="https://www.facebook.com/share/1KJg68PG4C/"
               target="_blank"
               rel="noreferrer"
               aria-label="Facebook"
             >
               <i className="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://wa.me/96179114460"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="WhatsApp"
+            >
+              <i className="fab fa-whatsapp"></i>
             </a>
           </div>
         </div>

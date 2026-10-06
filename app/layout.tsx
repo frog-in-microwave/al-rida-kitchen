@@ -10,7 +10,11 @@ import "./globals.css";
  */
 export const metadata: Metadata = {
   title: "Al-Rida Kitchen",
-  description: "Al-Rida Kitchen - Lebanon",
+  description: "Al-Rida Kitchen - Authentic Lebanese Cuisine in Ghazieh",
+  icons: {
+    icon: "/data/layout_images/logo_pic.avif",
+    apple: "/data/layout_images/logo_pic.avif",
+  },
 };
 
 /**
